@@ -12,7 +12,7 @@ public class ConcreteCommandB implements ICommand {
     }
 
     @Override
-    public void Execute() {
+    public void execute() {
         this.receiver.DoB();
     }
 }
